@@ -1,0 +1,27 @@
+.item-navbar {
+    background-color: goldenrod;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.item-navbar__logo {
+    background-color: mediumvioletred;
+    font-size: $xxxxx-large;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item-navbar__opciones {
+    background-color: midnightblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-navbar button {
+    background-color: olivedrab;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+}

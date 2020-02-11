@@ -1,0 +1,33 @@
+.item-caracteristicas {
+    border: 3px solid lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item-caracteristicas__titulo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-caracteristicas__grafico {
+    margin: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.item-caracteristicas__parraf {
+    background-color: turquoise;
+    color: $raisinblack;
+    width: 300px;
+    height: 250px;
+    float: right;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+}
